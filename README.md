@@ -52,8 +52,8 @@ _In order to make the request dynamic we need to split up the API endpoint._
 
 The API endpoint has two parts:
 
-- URL: `https://tahvel.edu.ee/hois_back/timetableevents/timetableByGroup/38`
-- Query: `?from=2023-10-30T00:00:00Z&studentGroups=5901&thru=2023-11-05T00:00:00Z`
+- URL: `https://tahveltp.edu.ee/hois_back/timetableevents/timetableSearch`
+- Query: `?from=2026-01-19T00:00:00.000Z&lang=ET&page=0&schoolId=38&size=50&studentGroups=4b26d1e5-11ac-4c63-840e-46c450c529ee&thru=2026-01-25T23:59:59.999Z`
   Each of the query params has a key & value pair.
 - Following the [query params](https://laravel.com/docs/10.x/http-client#get-request-query-parameters) example from the docs, update the Http request.
 - Run the command to validate, result should be the same as before.
